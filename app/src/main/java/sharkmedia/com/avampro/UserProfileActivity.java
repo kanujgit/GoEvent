@@ -85,7 +85,7 @@ public class UserProfileActivity extends AppCompatActivity {
     public void setUpdate()
     {
         name.setText(user.getUsername());
-        email.setText(user.getUsername());
+        email.setText(user.getEmail());
         phone.setText(user.getPhone());
         type=user.getGender().toString();
 
