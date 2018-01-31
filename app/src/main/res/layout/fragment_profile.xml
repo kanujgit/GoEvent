@@ -1,0 +1,103 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sharkmedia.com.avampro.fragment.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+
+        android:id="@+id/shop_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vendor_description"
+        android:textColor="@color/colorBlack"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        />
+        <TextView
+            android:id="@+id/textView_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vendor_more_des"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:visibility="gone"
+            android:layout_gravity="center"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shop Working Days"
+            android:textColor="@color/colorBlack"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            />
+
+
+        <TextView
+            android:id="@+id/textViewDayWorking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vendor_more_des"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/textView_ContactAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Address"
+            android:textColor="@color/colorBlack"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            />
+
+
+        <TextView
+            android:id="@+id/textViewLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="wait.........."
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:drawableLeft="@drawable/location_"
+            android:drawablePadding="5dp"
+            />
+
+        <TextView
+            android:id="@+id/textViewTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="wait.........."
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/clock"
+            android:drawablePadding="5dp"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+
+</FrameLayout>

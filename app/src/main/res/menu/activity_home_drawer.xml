@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/g1">
+    <item
+        android:id="@+id/nav_location"
+        android:icon="@drawable/location"
+        android:titleCondensed="@string/app_name"
+        android:title="Location"
+        android:visible="false"/>
+
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/cart"
+            android:title="My Order" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/users"
+            android:title="My Profile" />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/g2">
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share" />
+
+        <item
+            android:id="@+id/nav_offer"
+            android:icon="@drawable/offer"
+            android:title="Offer" />
+
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/notification_"
+
+            android:title="Notification" />
+    </group>
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/g3">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/info"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/contect"
+            android:title="Contact Us" />
+    </group>
+</menu>

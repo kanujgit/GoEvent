@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/service_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.RecyclerView
+
+        android:id="@+id/recycler_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="top"
+        android:scrollbars="vertical"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="4dp"
+        card_view:cardUseCompatPadding="true" />
+
+    <ProgressBar
+
+        android:id="@+id/progressBar_services"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_toEndOf="@+id/lyt_no_item_"
+        android:layout_toRightOf="@+id/lyt_no_item_" />
+
+
+    <include
+        android:id="@+id/lyt_no_item_"
+        layout="@layout/include_no_item"
+        android:visibility="gone" />
+
+
+</LinearLayout>
